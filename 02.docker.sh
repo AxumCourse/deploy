@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo mkdir /var/docker/axum-rs-pg && \
+sudo mkdir -p /var/docker/axum-rs-pg && \
 sudo docker run --name axum-rs-pg \ 
     -e POSTGRES_PASSWORD=axum.rs \
     -e POSTGRES_USER=axum_rs \
